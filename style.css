@@ -1,0 +1,298 @@
+title {
+    font: 12px Arial;
+}
+
+h1,h2,h3 { 
+    font: 24px Arial;
+    color: white;
+    height: 50px;
+}
+
+article {
+    font: 19px Arial;
+    color: white;
+}
+
+br {
+    color: white;
+}
+
+legend {
+    font: 20px Arial;
+    color: white;
+}
+
+a {
+    font: 17px Arial;
+
+}
+
+h4 {
+    font: 15px Arial;
+    color: white;
+}
+
+i {
+    font: 20px Arial;
+    color: white;
+}
+
+b {
+    font: 20px Arial;
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+ol {
+    color: white;
+}
+
+footer {
+    font: 13px Arial;
+    color:grey;
+}
+
+.one {
+   color:green; 
+}
+
+.two {
+    color:red;
+}
+
+.three {
+    color: royalblue;
+}
+
+.Home {
+    color:crimson;
+    font-size: 24px;
+}
+
+
+#pl {
+    background-color: green;
+    
+}
+
+#pla {
+    background-color:rgb(167, 233, 167);
+}
+
+#plm {
+    background-color: rgb(116, 212, 116);
+}
+
+#pls {
+    background-color:rgb(103, 240, 82);
+}
+
+#pld {
+    background-color: rgb(42, 235, 42);
+}
+
+#plf {
+    background-color: rgb(33, 154, 33);
+}
+
+#plg {
+    background-color: rgb(9, 58, 9);
+    color: white;
+}
+
+#plh {
+    background-color: rgb(52, 116, 48);
+}
+
+#pl,#pla,#plm,#pls,#pld,#pls,#plf {
+    color: Black;
+} 
+
+#czar {
+    color: Black;
+}
+
+#serwis {
+    min-height: 150px;
+    min-width: 1000px;
+    max-height: 150px;
+    max-width: 1000px;
+    border-color: limegreen;
+}
+
+#J {
+   max-height: 30px;
+   max-width: 250px;
+   min-height: 30px;
+   min-width: 250px;
+   border-color: limegreen;
+}
+
+#serwis2 {
+    min-height: 150px;
+    min-width: 700px;
+    max-height: 150px;
+    max-width: 700px;
+    border-color: limegreen;
+}
+
+#oo {
+    height: 50px;
+    width: 250px;
+    background-color: limegreen;
+    color: White;
+}
+
+html {
+    background-color: black;
+    color: White;
+}
+
+    
+.button, #ww, #ss, #xx, #ee, #dd, #cc {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 4px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#oo {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  #oo span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #oo span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #oo:hover span {
+    padding-right: 25px;
+  }
+  
+  #oo:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #caly {
+    width:300px;
+    line-height:30px;
+    position:fixed;
+    left:-270px;
+    transition:1s;
+    -webkit-transition:1s; /* dla Google Chrome, Safari, Opera 15+ */
+  }
+
+  #caly:hover {
+    left:0;
+  }
+
+  #blok1 {
+    float:left;
+    width:270px;
+  }
+
+  #blok2 {
+    float:left;
+    width:30px;
+  }
+
+  #blok_na_zawartosc {
+    color: black;
+    background-color:wheat;
+    border:3px solid chartreuse;
+    border-left:none;
+    border-bottom-right-radius:6px;
+  }
+
+  #zawartosc {
+    margin:0;
+    padding:5px;
+    height:150px;
+    overflow:auto;
+  }
+
+  #uchwyt {
+    text-align:center;
+    font-weight:bold;
+    color:black;
+    background-color:chartreuse;
+    border-radius:0 6px 6px 0;
+  }
+
+  #uchwyt:hover {
+    cursor:pointer;
+  }
+
+#srod {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-style: dotted;
+  border-color: #f4511e;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+#srod > h1 {
+  letter-spacing: 4px;
+}
+
